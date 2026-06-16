@@ -1,0 +1,15 @@
+{
+  "name": "ajug-2026-slides",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --base /ajug-2026-durable-executions/",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.50.0",
+    "@slidev/theme-default": "latest",
+    "@vueuse/core": "^14.2.0"
+  }
+}

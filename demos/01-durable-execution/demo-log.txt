@@ -1,0 +1,6 @@
+[2026-06-16T12:20:35.480Z][inv_19tW..IB8Z] ========== Handler started for AJUG ==========
+[2026-06-16T12:20:35.482Z][inv_19tW..IB8Z] Sending notification for 7ac68ca0
+[2026-06-16T12:27:50.902Z][inv_1icz..8uFX] ========== Handler started for AJUG ==========
+[2026-06-16T12:27:50.905Z][inv_1icz..8uFX] Sending notification for abeab413
+[2026-06-16T12:30:25.908Z][inv_1icz..8uFX] ========== Handler started for AJUG ==========
+[2026-06-16T12:30:25.916Z][inv_1icz..8uFX] Sending reminder for abeab413

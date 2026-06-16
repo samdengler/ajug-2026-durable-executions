@@ -1,0 +1,21 @@
+{
+  "name": "demo-01-durable-execution",
+  "version": "0.0.1",
+  "description": "Restate durable execution demo - Atlanta Java User Group 2026",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc --noEmitOnError",
+    "start": "node ./dist/app.js",
+    "dev": "tsx watch ./src/app.ts",
+    "restate:cleanup": "restate invocations cancel Greeter --yes 2>/dev/null ; restate invocations purge Greeter --yes 2>/dev/null ; echo 'Restate cleanup done.'"
+  },
+  "dependencies": {
+    "@restatedev/restate-sdk": "^1.10.2",
+    "zod": "^4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.4.5"
+  }
+}
