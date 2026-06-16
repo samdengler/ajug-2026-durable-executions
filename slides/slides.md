@@ -624,8 +624,8 @@ Your handler talks to a **leader node**, which replicates to the cluster
     { from: 'leader', to: 'r1', label: 'Replicate journal entry', type: 'request' },
     { from: 'leader', to: 'r2', label: 'Replicate journal entry', type: 'request' },
     { from: 'r1', to: 'leader', label: 'ACK', type: 'response' },
-    { from: 'r2', to: 'leader', label: 'ACK', type: 'response' },
     { from: 'leader', to: 'handler', label: 'OK - your code continues', type: 'response' },
+    { from: 'r2', to: 'leader', label: 'ACK', type: 'response' },
   ]"
 />
 
