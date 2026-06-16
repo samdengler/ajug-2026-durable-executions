@@ -1049,15 +1049,15 @@ layout: center
 <div class="flex justify-center items-center gap-12 mt-8">
 
 <div class="text-center">
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://luma.com/ajug-twtk?tk=WADDaf" class="w-40 h-40 mx-auto" />
-<div class="text-sm mt-2 opacity-60">Session link</div>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://github.com/samdengler/ajug-2026-durable-executions" class="w-40 h-40 mx-auto" />
+<div class="text-sm mt-2 opacity-60">Slides &amp; code on GitHub</div>
 </div>
 
 <div class="text-left space-y-4">
 
 <div class="flex items-center gap-2">
 <carbon-logo-github class="text-xl" />
-<a href="https://github.com/samdengler/durable-execution">samdengler/durable-execution</a>
+<a href="https://github.com/samdengler/ajug-2026-durable-executions">samdengler/ajug-2026-durable-executions</a>
 </div>
 
 <div class="flex items-center gap-2">

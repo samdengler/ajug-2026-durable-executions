@@ -35,4 +35,4 @@ if `qrencode` is installed).
 
 ## Demo Services
 
-The `services/` directory contains the Restate durable execution demo services used during the live portion of the talk.
+The `demos/01-durable-execution/` directory contains the Restate durable execution demo used during the live portion of the talk. See its `CHEATSHEET.md` for the demo commands, and `bin/demo.sh` to launch the full tmux session.
