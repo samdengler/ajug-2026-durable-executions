@@ -422,6 +422,8 @@ clicks: 18
 />
 
 ---
+clicks: 1
+---
 
 # The Recovery
 
@@ -439,7 +441,7 @@ The service comes back - what happens to the in-flight invocation?
 <div class="p-6 border-2 border-purple-400 rounded-lg text-center w-52 relative">
 <div class="text-2xl mb-2">Restate Server</div>
 <div class="text-sm text-gray-400">localhost:8080</div>
-<div class="absolute -bottom-7 left-0 right-0 text-xs text-green-400 font-medium">5. replays journal</div>
+<div v-if="$clicks >= 1" class="absolute -bottom-7 left-0 right-0 text-xs text-green-400 font-medium">5. replays journal</div>
 </div>
 
 <div class="text-2xl text-gray-500">→</div>
@@ -452,12 +454,12 @@ The service comes back - what happens to the in-flight invocation?
 </div>
 <div class="text-sm text-gray-400 mt-2">localhost:9080</div>
 <div class="absolute -bottom-7 left-0 right-0 text-xs text-green-400 font-medium">4. service recovers</div>
-<div class="absolute -bottom-12 left-0 right-0 text-xs text-green-400 font-medium">6. handler completes</div>
+<div v-if="$clicks >= 1" class="absolute -bottom-12 left-0 right-0 text-xs text-green-400 font-medium">6. handler completes</div>
 </div>
 
 </div>
 
-<div class="absolute bottom-10 left-0 right-0 text-center text-yellow-400 text-base font-medium">
+<div v-if="$clicks >= 1" class="absolute bottom-10 left-0 right-0 text-center text-yellow-400 text-base font-medium">
 The service is restored - the handler resumes exactly where it left off, replaying the Restate journal.
 </div>
 
